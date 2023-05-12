@@ -31,12 +31,12 @@ Correlation between features:
 
 Key observations from the analysis include:
 
-.The target column ("yield") is normally distributed with a slightly negative skewness.
-.There are no missing values in the dataset.
-.Multimodal distributions are observed in some of the feature columns.
-.Outliers are detected in the honeybee column and require further investigation.
-.Some columns exhibit high correlation with the target column, indicating their potential importance in predicting the target variable.
-.No duplicate rows are found in the dataset.
+*The target column ("yield") is normally distributed with a slightly negative skewness.
+*There are no missing values in the dataset.
+*Multimodal distributions are observed in some of the feature columns.
+*Outliers are detected in the honeybee column and require further investigation.
+*Some columns exhibit high correlation with the target column, indicating their potential importance in predicting the target variable.
+*No duplicate rows are found in the dataset.
 
 Finally, the analysis concludes with feature scaling using StandardScaler. However, the code provided in the question is incomplete, as the fitting and transformation steps are missing.
 
