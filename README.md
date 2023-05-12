@@ -12,6 +12,7 @@ Next, exploratory data analysis (EDA) and statistical analysis are performed on 
 Key observations from the analysis include:
 
 The target column ("yield") is normally distributed with a slightly negative skewness.
+![target_skewness](images/target_skewness.png)
 There are no missing values in the dataset.
 Multimodal distributions are observed in some of the feature columns.
 Outliers are detected in the honeybee column and require further investigation.
