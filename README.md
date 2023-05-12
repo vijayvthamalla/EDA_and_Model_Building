@@ -8,11 +8,21 @@ After loading the data, the columns "id" and "Row#" are dropped from the train a
 New features are then created based on the existing columns in the train DataFrame. These features include "total_bee_density," "temp_range," "temp_deviation," "pollination_potential," "yield_potential," and "total_seeds." These features aim to capture additional information and patterns from the existing data.
 
 Next, exploratory data analysis (EDA) and statistical analysis are performed on both the target column ("yield") and the feature columns. The EDA includes visualizations of the distribution, skewness, and outliers in the data. Statistical analysis involves calculating summary statistics, detecting outliers using z-scores, and examining the skewness of the data through Q-Q plots.
+Target Distribution:
+![target_distribution](images/target_distribution.png)
+
+Skewness in Target:
+![target_skewness](images/target_skewness.png)
+
+Outliers in Target:
+![target_outlier_detection](images/target_outlier_detection.png)
+
+Correlation between features:
+![correlation_heatmap](images/correlation_heatmap.png)
 
 Key observations from the analysis include:
 
 The target column ("yield") is normally distributed with a slightly negative skewness.
-![target_skewness](images/target_skewness.png)
 There are no missing values in the dataset.
 Multimodal distributions are observed in some of the feature columns.
 Outliers are detected in the honeybee column and require further investigation.
